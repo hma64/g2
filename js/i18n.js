@@ -8,7 +8,7 @@ export const i18n = {
     navCategories: "Catégories",
     navContact: "Contact",
     navAllProducts: "Voir tous les produits",
-    heroTitle: "Créations <span>faites avec</span> mains passionnees",
+    heroTitle: "Créations <span>faites avec</span> mains passionnées",
     heroText:
       "Bienvenue chez GCA styMode. Paniers, vannerie et objets artisanaux fabriqués à la main en Tunisie.",
     shopCollectionBtn: "Voir la collection",
