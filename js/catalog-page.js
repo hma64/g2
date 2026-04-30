@@ -128,9 +128,8 @@ function updatePriceUi() {
   priceMaxInput.value = String(currentMaxPrice);
   const minPercent = ((currentMinPrice - availableMinPrice) / Math.max(1, availableMaxPrice - availableMinPrice)) * 100;
   const maxPercent = ((currentMaxPrice - availableMinPrice) / Math.max(1, availableMaxPrice - availableMinPrice)) * 100;
-  const isRtl = document.documentElement.dir === "rtl";
-  rangeProgress.style.insetInlineStart = `${Math.max(0, isRtl ? 100 - maxPercent : minPercent)}%`;
-  rangeProgress.style.insetInlineEnd = `${Math.max(0, isRtl ? minPercent : 100 - maxPercent)}%`;
+  rangeProgress.style.left = `${Math.max(0, minPercent)}%`;
+  rangeProgress.style.right = `${Math.max(0, 100 - maxPercent)}%`;
 }
 
 function getCategoryProducts() {
