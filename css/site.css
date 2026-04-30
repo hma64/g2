@@ -1635,8 +1635,8 @@ a.category-pill:hover {
   height: 4px;
   border-radius: 999px;
   background: var(--gold);
-  inset-inline-start: 0%;
-  inset-inline-end: 0%;
+  left: 0;
+  right: auto;
   width: auto;
 }
 
@@ -1868,4 +1868,3 @@ a.category-pill:hover {
     display: none;
   }
 }
-
